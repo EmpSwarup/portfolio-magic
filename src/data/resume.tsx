@@ -1,0 +1,224 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+
+export const DATA = {
+  name: "Swarup Sapkota",
+  initials: "SS",
+  url: "https://www.swarupsapkota.com.np/",
+  location: "Lalitpur, Nepal",
+  locationLink: "https://www.google.com/maps/place/kathmandu",
+  description:
+    "Computer Engineer with passion for design. Currently Frontend Developer at TekGro Nepal.",
+  summary:
+    "After finishing highschool, I chose to start my studies for Computer Engineering. For this, I pursued a [Bachelors degree in Computer Engineering](/#education) at [Nepal College of Information Technology](https://ncit.edu.np/) and worked as [Graphics Designer at Dealayo](https://dealayo.com/). Now, I have the pleasure of being a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/).",
+  avatarUrl: "/me.jpg",
+  skills: [
+    "React",
+    "Next.js",
+    "Vite",
+    "Javascript",
+    "Typescript",
+    "Node.js",
+    "Python",
+    "TailwindCSS",
+    "SQL",
+    "MongoDB",
+    "Firebase",
+    "Photoshop",
+    "Figma",
+    "Vercel",
+    "Java",
+    "C++",
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+
+  ],
+  contact: {
+    email: "swarupsapkota@gmail.com",
+    tel: "+9779861280327",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/EmpSwarup",
+        icon: Icons.github,
+
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/swarupsapkota/",
+        icon: Icons.linkedin,
+
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:swarupsapkota@gmail.com",
+        icon: Icons.email,
+
+        navbar: false,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "TekGro Nepal",
+      href: "https://tekgronepal.com.np/",
+      badges: [],
+      location: "Kathmandu, Nepal",
+      title: "Frontend Developer Intern",
+      logoUrl: "/tekgro.jpeg",
+      start: "September 2024",
+      end: "Present",
+      description:
+        "Translated Figma UI/UX wireframes into responsive web applications using HTML, CSS, JavaScript, and React.js, developed clean, maintainable code, integrated front-end with back-end APIs.",
+    },
+    {
+      company: "Dealayo",
+      href: "https://dealayo.com/",
+      badges: [],
+      location: "Khumaltar, Lalitpur",
+      title: "Graphics Designer",
+      logoUrl: "/dealayo.jpg",
+      start: "November 2022",
+      end: "December 2022",
+      description:
+        "Designed high quality and engaging social media posts and banners for Ecommerce platform Dealayo using Adobe Photoshop and Illustrator.",
+    },
+  ],
+  education: [
+    {
+      school: "Nepal College of Information Technology",
+      href: "https://ncit.edu.np/",
+      degree: "Bachelors in Computer Engineering",
+      logoUrl: "/ncit.jpg",
+      start: "2018",
+      end: "2023",
+    },
+    {
+      school: "Moonlight Secondary School",
+      href: "https://molihss.edu.np/",
+      degree: "Highschool Diploma",
+      logoUrl: "/moliss.jpg",
+      start: "2016",
+      end: "2018",
+    },
+  ],
+  projects: [
+    {
+      title: "RoomFinder 2.0",
+      href: "https://github.com/nishantchy842/RoomFinder_2.0",
+      dates: "May 2023 - July 2023",
+      active: true,
+      description:
+        "Room Finder is a full stack MERN application that allows users to post and view room listings. Other features include payment system, recommendation system, mapping, etc. Collaborative project for final year of Computer Engineering.",
+      technologies: [
+        "Vite",
+        "ReactJS",
+        "MongoDB",
+        "Material UI",
+        "TailwindCSS",
+        "Khalti Payment",
+        "Redux",
+        "Mapbox",
+        "JWT",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/nishantchy842/RoomFinder_2.0",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://live.staticflickr.com/video/53995667771/63d04e8274/1080p.mp4?s=eyJpIjo1Mzk5NTY2Nzc3MSwiZSI6MTcyNjM3NDU0MSwicyI6IjMwMTBlMTg5NmZiOTMyMTZkMmRiYmU3OTc1NTA2NTAxNWVhMmYwOTMiLCJ2IjoxfQ",
+    },
+    {
+      title: "Article Summarizer",
+      href: "https://sumz-article-summarizer-emp.vercel.app/",
+      dates: "October 2023 - November 2023",
+      active: true,
+      description:
+        "A React app that summarizes articles from the internet. Utilizes summarizer API for summarizing articles. Used Tailwind CSS for styling and Redux for state management",
+      technologies: [
+        "Vite",
+        "ReactJS",
+        "Javascript",
+        "RapidAPI",
+        "Redux",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://sumz-article-summarizer-emp.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/EmpSwarup/article-summarizer",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://live.staticflickr.com/video/53996096775/95ebe1c167/1080p.mp4?s=eyJpIjo1Mzk5NjA5Njc3NSwiZSI6MTcyNjM3NDczOCwicyI6ImJhOTllYzQ3ZmQ5YmEwODFkZTkwM2FiZDIxOTYxOTk3ZjVmMjVlM2MiLCJ2IjoxfQ",
+    },
+    {
+      title: "RoomFinder",
+      href: "https://roomfinderapp.netlify.app/",
+      dates: "October 2022 - November 2022",
+      active: true,
+      description:
+        "Developed an Ecommerce style website for rooms, houses and apartments",
+      technologies: [
+        "React JS",
+        "Javascript",
+        "Firebase",
+        "Bootstrap",
+        "Google Maps",
+        "Kahlti Payment",
+        "Netlify",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://roomfinderapp.netlify.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/EmpSwarup/roomfinder",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "https://live.staticflickr.com/video/53995667766/ba945ea32d/1080p.mp4?s=eyJpIjo1Mzk5NTY2Nzc2NiwiZSI6MTcyNjM3NDYxMiwicyI6ImRkMTU0MmVlOWY1M2NlMzYwMmI0N2VmYTZiMTcwOWRiNzdjZTc3M2QiLCJ2IjoxfQ",
+    },
+    {
+      title: "Designs for Dealyo",
+      href: "https://www.behance.net/swarupsapkota",
+      dates: "Nov 2022 - Dec 2022",
+      active: true,
+      description:
+        "Worked as graphics designer for online shopping platform Dealayo. Designed banners for the site and social media posts",
+      technologies: [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.behance.net/swarupsapkota",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://live.staticflickr.com/video/53996096710/3f123b5dbe/720p.mp4?s=eyJpIjo1Mzk5NjA5NjcxMCwiZSI6MTcyNjM3NDYzNiwicyI6IjBkZDBkOWUyZGZjOGE0YWYxMmJhOWFmMTA0YTMyMjRiMzkyODlmNTMiLCJ2IjoxfQ",
+    },
+  ],
+} as const;
