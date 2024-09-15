@@ -132,9 +132,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://live.staticflickr.com/video/53995667771/63d04e8274/1080p.mp4?s=eyJpIjo1Mzk5NTY2Nzc3MSwiZSI6MTcyNjM3NDU0MSwicyI6IjMwMTBlMTg5NmZiOTMyMTZkMmRiYmU3OTc1NTA2NTAxNWVhMmYwOTMiLCJ2IjoxfQ",
+      image: "/work1.jpg",
     },
     {
       title: "Article Summarizer",
@@ -164,8 +162,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://live.staticflickr.com/video/53996096775/95ebe1c167/1080p.mp4?s=eyJpIjo1Mzk5NjA5Njc3NSwiZSI6MTcyNjM3NDczOCwicyI6ImJhOTllYzQ3ZmQ5YmEwODFkZTkwM2FiZDIxOTYxOTk3ZjVmMjVlM2MiLCJ2IjoxfQ",
+      image: "/work2.jpg",
     },
     {
       title: "RoomFinder",
@@ -195,8 +192,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://live.staticflickr.com/video/53995667766/ba945ea32d/1080p.mp4?s=eyJpIjo1Mzk5NTY2Nzc2NiwiZSI6MTcyNjM3NDYxMiwicyI6ImRkMTU0MmVlOWY1M2NlMzYwMmI0N2VmYTZiMTcwOWRiNzdjZTc3M2QiLCJ2IjoxfQ",
+      image: "/work3.jpg",
     },
     {
       title: "Designs for Dealyo",
@@ -216,9 +212,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video:
-        "https://live.staticflickr.com/video/53996096710/3f123b5dbe/720p.mp4?s=eyJpIjo1Mzk5NjA5NjcxMCwiZSI6MTcyNjM3NDYzNiwicyI6IjBkZDBkOWUyZGZjOGE0YWYxMmJhOWFmMTA0YTMyMjRiMzkyODlmNTMiLCJ2IjoxfQ",
+      image: "/work4.jpg",
     },
   ],
 } as const;
