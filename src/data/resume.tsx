@@ -177,7 +177,7 @@ export const DATA = {
         "Firebase",
         "Bootstrap",
         "Google Maps",
-        "Kahlti Payment",
+        "Khalti Payment",
         "Netlify",
       ],
       links: [
