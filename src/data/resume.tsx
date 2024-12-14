@@ -64,6 +64,18 @@ export const DATA = {
 
   work: [
     {
+      company: "NAXA",
+      href: "https://naxa.com.np/",
+      badges: [],
+      location: "Kathmandu, Nepal",
+      title: "Frontend Developer Intern",
+      logoUrl: "/naxa-logo.png",
+      start: "December 2024",
+      end: "Present",
+      description:
+        "Collaborated with the team to design, develop, and maintain responsive web applications, creating user-friendly interfaces with HTML, CSS, and JavaScript, optimizing performance, ensuring cross-browser compatibility, and contributing to feature development, testing, debugging, and seamless integration with back-end systems.",
+    },
+    {
       company: "TekGro Nepal",
       href: "https://tekgronepal.com.np/",
       badges: [],
@@ -71,7 +83,7 @@ export const DATA = {
       title: "Frontend Developer Intern",
       logoUrl: "/tekgro.jpeg",
       start: "September 2024",
-      end: "Present",
+      end: "December 2024",
       description:
         "Translated Figma UI/UX wireframes into responsive web applications using HTML, CSS, JavaScript, and React.js, developed clean, maintainable code, integrated front-end with back-end APIs.",
     },
