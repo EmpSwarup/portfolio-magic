@@ -8,9 +8,9 @@ export const DATA = {
   location: "Lalitpur, Nepal",
   locationLink: "https://www.google.com/maps/place/kathmandu",
   description:
-    "Computer Engineer with passion for design. Currently Frontend Developer at TekGro Nepal.",
+    "Computer Engineer with passion for design. Currently Frontend Developer at NAXA.",
   summary:
-    "After finishing highschool, I chose to start my studies for Computer Engineering. For this, I pursued a [Bachelors degree in Computer Engineering](/#education) at [Nepal College of Information Technology](https://ncit.edu.np/) and worked as [Graphics Designer at Dealayo](https://dealayo.com/). Now, I have the pleasure of being a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/).",
+    "After completing high school, I chose to pursue a career in Computer Engineering. I earned a Bachelor’s degree in Computer Engineering from Nepal College of Information Technology and gained professional experience as a [Graphics Designer at Dealayo](https://dealayo.com/). I recently completed a 3-month internship as a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/) and have now joined [NAXA](https://naxa.com.np/) as a Frontend Developer Intern.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
