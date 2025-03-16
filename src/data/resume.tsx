@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Computer Engineer with passion for design. Currently Frontend Developer at NAXA.",
   summary:
-    "After completing high school, I chose to pursue a career in Computer Engineering. I earned a Bachelor’s degree in Computer Engineering from Nepal College of Information Technology and gained professional experience as a [Graphics Designer at Dealayo](https://dealayo.com/). I recently completed a 3-month internship as a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/) and have now joined [NAXA](https://naxa.com.np/) as a Frontend Developer Intern.",
+    "After completing high school, I chose to pursue a career in Computer Engineering. I earned a Bachelor’s degree in Computer Engineering from Nepal College of Information Technology and gained professional experience as a [Graphics Designer at Dealayo](https://dealayo.com/). I recently completed a 3-month internship as a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/) and a 3-month internship as a Frontend Developer at [NAXA](https://naxa.com.np/), where I worked on multiple large projects.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -30,10 +30,7 @@ export const DATA = {
     "Java",
     "C++",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "swarupsapkota@gmail.com",
     tel: "+9779861280327",
@@ -71,9 +68,9 @@ export const DATA = {
       title: "Frontend Developer Intern",
       logoUrl: "/naxa-logo.png",
       start: "December 2024",
-      end: "Present",
+      end: "March 2025",
       description:
-        "Collaborated with the team to design, develop, and maintain responsive web applications, creating user-friendly interfaces with HTML, CSS, and JavaScript, optimizing performance, ensuring cross-browser compatibility, and contributing to feature development, testing, debugging, and seamless integration with back-end systems.",
+        "Contributed to Bhutan UTM, a drone tracking system, by implementing reusable, responsive UI components using Tailwind CSS, developed a translation feature for the National Statistics Office project to support multilingual static content and dynamic API data, built a CRUD system for unit management to improve form workflows, implemented a remarks feature for tracking and reviewing form comments, gained hands-on experience with TypeScript, Redux, and TanStack Query for state management and data fetching, fixed multiple UI and functionality bugs to enhance application.",
     },
     {
       company: "TekGro Nepal",
@@ -85,7 +82,7 @@ export const DATA = {
       start: "September 2024",
       end: "December 2024",
       description:
-        "Translated Figma UI/UX wireframes into responsive web applications using HTML, CSS, JavaScript, and React.js, developed clean, maintainable code, integrated front-end with back-end APIs.",
+        "Translated Figma UI/UX wireframes into responsive web applications using HTML, CSS, JavaScript, and React.js, contributed to an LMS project by enhancing UX with red asterisks for required fields and popups for success/failure actions, developed clean, maintainable code while integrating front-end components with back-end APIs, and ensured accessibility and responsiveness for smooth UI interactions across devices.",
     },
     {
       company: "Dealayo",
@@ -213,10 +210,7 @@ export const DATA = {
       active: true,
       description:
         "Worked as graphics designer for online shopping platform Dealayo. Designed banners for the site and social media posts",
-      technologies: [
-        "Adobe Photoshop",
-        "Adobe Illustrator",
-      ],
+      technologies: ["Adobe Photoshop", "Adobe Illustrator"],
       links: [
         {
           type: "Website",
