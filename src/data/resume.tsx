@@ -7,8 +7,7 @@ export const DATA = {
   url: "https://www.swarupsapkota.com.np/",
   location: "Lalitpur, Nepal",
   locationLink: "https://www.google.com/maps/place/kathmandu",
-  description:
-    "Computer Engineer with passion for design. Currently Frontend Developer at NAXA.",
+  description: "Computer Engineer with passion for design. Frontend Developer",
   summary:
     "After completing high school, I chose to pursue a career in Computer Engineering. I earned a Bachelor’s degree in Computer Engineering from Nepal College of Information Technology and gained professional experience as a [Graphics Designer at Dealayo](https://dealayo.com/). I recently completed a 3-month internship as a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/) and a 3-month internship as a Frontend Developer at [NAXA](https://naxa.com.np/), where I worked on multiple large projects.",
   avatarUrl: "/me.jpg",
@@ -24,6 +23,8 @@ export const DATA = {
     "SQL",
     "MongoDB",
     "Firebase",
+    "Redux",
+    "React Query",
     "Photoshop",
     "Figma",
     "Vercel",
