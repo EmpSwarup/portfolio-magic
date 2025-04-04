@@ -145,6 +145,36 @@ export const DATA = {
       image: "/work1.jpg",
     },
     {
+      title: "Recent Earthquake in Nepal Tracker",
+      href: "https://recent-earthquake-nepal.vercel.app/",
+      dates: "March 2025 - April 2025",
+      active: true,
+      description:
+        "A real-time earthquake monitoring application focused on Nepal, visualizing seismic activity with interactive maps and detailed information.",
+      technologies: [
+        "Vite",
+        "ReactJS",
+        "Typescript",
+        "Tanstack Query",
+        "ShadCN",
+        "Tailwind CSS",
+        "Vercel",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://recent-earthquake-nepal.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/EmpSwarup/recent-earthquake-nepal",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/work5.jpg",
+    },
+    {
       title: "Article Summarizer",
       href: "https://sumz-article-summarizer-emp.vercel.app/",
       dates: "October 2023 - November 2023",
