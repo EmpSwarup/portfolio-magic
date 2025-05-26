@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/kathmandu",
   description: "Computer Engineer | Frontend Developer.",
   summary:
-    "After completing high school, I chose to pursue a career in Computer Engineering. I earned a Bachelor’s degree in Computer Engineering from Nepal College of Information Technology and gained professional experience as a [Graphics Designer at Dealayo](https://dealayo.com/). I recently completed a 3-month internship as a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/) and a 3-month internship as a Frontend Developer at [NAXA](https://naxa.com.np/), where I worked on multiple large projects.",
+    "After completing high school, I pursued a Bachelor’s degree in Computer Engineering at **Nepal College of Information Technology**, where I built a solid foundation in software development and problem-solving.I began my professional journey as a [Graphics Designer at Dealayo](https://dealayo.com/), which allowed me to develop a strong eye for design and user experience. My interest in frontend development led me to complete a 3-month internship as a [Frontend Developer at Tekgro Nepal](https://tekgronepal.com.np/), followed by another 3-month internship at [Frontend Developer at NAXA](https://naxa.com.np/), where I contributed to several large-scale projects and deepened my skills in modern web technologies. Currently, I’m working as an [Associate Frontend Engineer at Inductiv](https://inductiv.co/), where I’m part of a team building privacy-first, reliable, and explainable AI platforms shaping the future of enterprise and financial intelligence.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
@@ -61,6 +61,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Inductiv",
+      href: "https://inductiv.co/",
+      badges: [],
+      location: "Singapore",
+      title: "Associate Frontend Engineer",
+      logoUrl: "/inductiv-logo.png",
+      start: "May 2025",
+      end: "Present",
+      description:
+        "Helping build privacy-first, reliable, and explainable AI platforms that power the future of enterprise and financial intelligence.",
+    },
     {
       company: "NAXA",
       href: "https://naxa.com.np/",
